@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33801.468
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThieuNhiTT.Api", "ThieuNhiTT.Api\ThieuNhiTT.Api.csproj", "{32139107-1AF4-4606-B0D9-C7E8795AA745}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThieuNhiTT.ApiGateWay", "ThieuNhiTT.ApiGateWay\ThieuNhiTT.ApiGateWay.csproj", "{32139107-1AF4-4606-B0D9-C7E8795AA745}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
