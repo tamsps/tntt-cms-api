@@ -1,0 +1,43 @@
+{ 
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:44332/"
+  },
+  "Routes": [
+    {
+	  "UpstreamPathTemplate": "/api/v1/user/get-all",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DownstreamPathTemplate": "/api/v1/user/get-all",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44340
+        }
+      ]
+    },
+	{ 
+	"UpstreamPathTemplate": "/api/v1/user/get-id",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DownstreamPathTemplate": "/api/v1/user/get-id",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44340
+        }
+      ]
+    },
+    {
+	  "UpstreamPathTemplate": "/api/v1/organization/get-all",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DownstreamPathTemplate": "/api/v1/organization/get-all",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44376
+		}
+      ]
+    }
+  ]
+}

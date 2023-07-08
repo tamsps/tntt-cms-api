@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "V3SazQSne6/8XOa1wh5eU+4WOcwpF/k4ZR6yztlE+Cw=",
+  "Source": "TNTT.CMS.ApiGateway",
+  "BasePath": "_content/TNTT.CMS.ApiGateway",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
