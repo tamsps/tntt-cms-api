@@ -1,5 +1,6 @@
 using Ocelot.DependencyInjection;
 using Ocelot.Middleware;
+using TNTT.CMS.ApiGateway;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,10 +11,11 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Configuration
-    .AddJsonFile($"acelot-setting.{builder.Environment.EnvironmentName}.json", optional: false, reloadOnChange: true);
+    .AddJsonFile($"acelot-setting.{builder.Environment.EnvironmentName}.json", optional: false, reloadOnChange: true)
+    .AddJsonFile($"appsettings.{builder.Environment.EnvironmentName}.json", optional: false, reloadOnChange: true);
 
 builder.Services.AddOcelot(builder.Configuration);
-//builder.Configuration.AddEnvironmentVariables();
+builder.Services.ConfigureCors();
 
 
 var app = builder.Build();

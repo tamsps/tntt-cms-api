@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "8+bZWs5mnase0Lk8aqr9V9Bzc5UlcWt61WeRKyGsrXEciDNdJodNopuvL73t/CFQgZEA+9xmtj4fNMJkJ37Chw==",
+  "dgSpecHash": "aomTmCmWp/sMWGcq0YdiCa2xUu+XnWHsFcg+WnJbluqfJAzPLeUkyZgo5ENxHqNlobObgtqv1NnvE2c4JpNcmw==",
   "success": true,
   "projectFilePath": "F:\\Project\\tntt-cms-apigateway\\TNTT.CMS.ApiGateway\\TNTT.CMS.ApiGateway.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tam Vu\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Tam Vu\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\Tam Vu\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
+    "C:\\Users\\Tam Vu\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.8\\microsoft.aspnetcore.authentication.jwtbearer.7.0.8.nupkg.sha512",
     "C:\\Users\\Tam Vu\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\7.0.5\\microsoft.aspnetcore.jsonpatch.7.0.5.nupkg.sha512",
     "C:\\Users\\Tam Vu\\.nuget\\packages\\microsoft.aspnetcore.middlewareanalysis\\7.0.5\\microsoft.aspnetcore.middlewareanalysis.7.0.5.nupkg.sha512",
     "C:\\Users\\Tam Vu\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\7.0.5\\microsoft.aspnetcore.mvc.newtonsoftjson.7.0.5.nupkg.sha512",

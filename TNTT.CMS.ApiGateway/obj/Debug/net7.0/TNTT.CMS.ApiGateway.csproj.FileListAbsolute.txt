@@ -75,3 +75,5 @@ F:\Project\tntt-cms-apigateway\TNTT.CMS.ApiGateway\obj\Debug\net7.0\TNTT.CMS.Api
 F:\Project\tntt-cms-apigateway\TNTT.CMS.ApiGateway\obj\Debug\net7.0\ref\TNTT.CMS.ApiGateway.dll
 F:\Project\tntt-cms-apigateway\TNTT.CMS.ApiGateway\bin\Debug\net7.0\acelot-setting.Development.json
 F:\Project\tntt-cms-apigateway\TNTT.CMS.ApiGateway\bin\Debug\net7.0\acelot-setting.Production.json
+F:\Project\tntt-cms-apigateway\TNTT.CMS.ApiGateway\bin\Debug\net7.0\appsettings.Development.json
+F:\Project\tntt-cms-apigateway\TNTT.CMS.ApiGateway\bin\Debug\net7.0\appsettings.Production.json
